@@ -5,7 +5,7 @@ export const PROFILE = {
   email: "bijaykharel807@gmail.com",
   phone: "+977-9745616924",
   summary: "Dedicated web designer and developer seeking a challenging position in a reputed organization where I can leverage my technical skills in web design, front-end development, and creative problem-solving to contribute to innovative digital solutions while continuously expanding my expertise in modern web technologies.",
-  image: "https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/599845449_4260040827573532_1091265957227179879_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=8Rp0mdzq9CMQ7kNvwFRlmlZ&_nc_oc=AdoztfE4eOhWzXxg5P2EnX2BTxxyLeqRV6qOmwn6IRBXK6-QAMoOYCXWEDOLsuq1A0uiC0oDbABwWk1AT53c3zQY&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=WoG0TlybVXgzeKENDyzI5A&_nc_ss=7b2a8&oh=00_AQAnjP6aCq7AWG7SP9rlMlmrrBZsQ3LkVtnLg8EfnuQPQg&oe=6A6B4C0B",
+  image: "https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/599845449_4260040827573532_1091265957227179879_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=2nJbjP6Rx1YQ7kNvwHVSNUo&_nc_oc=AdoD1YVefkgRhqID4pNvpzUt_Rzk96CV0TP2612HGPeYe_rS6CoYvAUBnr4-nhqc1k1_7DifhRb8XfFsgCDjceKA&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=59YZTNcqYl5EAzx8nByf_A&_nc_ss=7b2a8&oh=00_AQEhgHRZX_rAkdkvwQJkLiEQ-9E_wE9KgJ40RZSo1iQhHw&oe=6A7761CB",
   socials: {
     github: "https://github.com/bijaykharel807-crypto",
     linkedin: "https://linkedin.com/in/bijay-kharel-9b5740384/",
@@ -37,6 +37,17 @@ export const SKILLS = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "AI SaaS Platform Demo",
+    role: "Front-End & AI Web Developer",
+    period: "2026",
+    tech: ["React", "JavaScript", "Tailwind CSS", "AI Interface"],
+    description: "An interactive AI SaaS platform prototype simulating modern generative AI workflows, prompt design systems, and responsive web product interfaces.",
+    outcome: "Demonstrates advanced front-end UI architecture and simulated AI product workflows.",
+    links: { github: "https://github.com/bijaykharel807-crypto", live: "https://ai0-2.onrender.com/" },
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800"
+  }, 
+  
   {
     title: "Streamlit ML & Data App",
     role: "Data & ML Developer",
@@ -221,7 +232,7 @@ export const PROJECTS = [
 
 export const EXPERIENCE = [
   {
-    company: "Self-Employed",
+    company: "BrahmaByte Lab Pvt. Ltd",
     role: "Web Designer & Python Developer",
     period: "December 2018 – December 2025",
     points: [
