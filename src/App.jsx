@@ -2,6 +2,8 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { 
   Github, 
   Linkedin, 
+  Facebook,
+  Instagram,
   Mail, 
   ExternalLink, 
   MapPin, 
@@ -98,9 +100,16 @@ export default function App() {
                 transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
                 className="lg:col-span-7"
               >
-                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-black/10 bg-black/[0.03] text-[11px] uppercase tracking-[0.2em] font-bold mb-8 text-slate-700">
-                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                  Available for Opportunities
+                <div className="flex items-center gap-3 mb-8">
+                  <img 
+                    src={PROFILE.image} 
+                    alt={PROFILE.name} 
+                    className="w-12 h-12 rounded-full object-cover ring-2 ring-black/10 lg:hidden shadow-md"
+                  />
+                  <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-black/10 bg-black/[0.03] text-[11px] uppercase tracking-[0.2em] font-bold text-slate-700">
+                    <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                    Available for Opportunities
+                  </div>
                 </div>
                 
                 <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tighter mb-8 text-slate-900">
@@ -142,6 +151,28 @@ export default function App() {
                     >
                       <Linkedin size={20} />
                     </a>
+                    {PROFILE.socials.facebook && (
+                      <a 
+                        href={PROFILE.socials.facebook} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="p-4 glass rounded-full hover:bg-black hover:text-white transition-all text-slate-900"
+                        title="Facebook Profile"
+                      >
+                        <Facebook size={20} />
+                      </a>
+                    )}
+                    {PROFILE.socials.instagram && (
+                      <a 
+                        href={PROFILE.socials.instagram} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="p-4 glass rounded-full hover:bg-black hover:text-white transition-all text-slate-900"
+                        title="Instagram Profile"
+                      >
+                        <Instagram size={20} />
+                      </a>
+                    )}
                     <a 
                       href={PROFILE.socials.website} 
                       target="_blank" 
@@ -504,13 +535,23 @@ export default function App() {
             </div>
 
             <div className="flex items-center gap-6">
-              <a href={PROFILE.socials.github} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors">
+              <a href={PROFILE.socials.github} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors" title="GitHub">
                 <Github size={20} />
               </a>
-              <a href={PROFILE.socials.linkedin} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors">
+              <a href={PROFILE.socials.linkedin} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors" title="LinkedIn">
                 <Linkedin size={20} />
               </a>
-              <a href={`mailto:${PROFILE.email}`} className="text-slate-400 hover:text-white transition-colors">
+              {PROFILE.socials.facebook && (
+                <a href={PROFILE.socials.facebook} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors" title="Facebook">
+                  <Facebook size={20} />
+                </a>
+              )}
+              {PROFILE.socials.instagram && (
+                <a href={PROFILE.socials.instagram} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors" title="Instagram">
+                  <Instagram size={20} />
+                </a>
+              )}
+              <a href={`mailto:${PROFILE.email}`} className="text-slate-400 hover:text-white transition-colors" title="Email">
                 <Mail size={20} />
               </a>
             </div>

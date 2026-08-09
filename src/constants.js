@@ -1,22 +1,28 @@
 export const PROFILE = {
   name: "Bijay Kharel",
-  role: "Web Designer & Python Developer",
+  role: "Full Stack Developer, AI/ML Engineer, Data Scientist & React Native Developer",
   location: "Bhaktapur, Bagmati Province, Nepal",
   email: "bijaykharel807@gmail.com",
   phone: "+977-9745616924",
-  summary: "Dedicated web designer and developer seeking a challenging position in a reputed organization where I can leverage my technical skills in web design, front-end development, and creative problem-solving to contribute to innovative digital solutions while continuously expanding my expertise in modern web technologies.",
-  image: "https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/599845449_4260040827573532_1091265957227179879_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=2nJbjP6Rx1YQ7kNvwHVSNUo&_nc_oc=AdoD1YVefkgRhqID4pNvpzUt_Rzk96CV0TP2612HGPeYe_rS6CoYvAUBnr4-nhqc1k1_7DifhRb8XfFsgCDjceKA&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=59YZTNcqYl5EAzx8nByf_A&_nc_ss=7b2a8&oh=00_AQEhgHRZX_rAkdkvwQJkLiEQ-9E_wE9KgJ40RZSo1iQhHw&oe=6A7761CB",
+  summary: "Dedicated Full Stack Developer, AI/ML Engineer, Data Scientist, and React Native Developer seeking a challenging position in a reputed organization where I can leverage my technical skills in full-stack architecture, machine learning models, data science analytics, and mobile app development to contribute to innovative digital solutions.",
+  image: "https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/501442942_4068241483420135_7817016099113564805_n.jpg?stp=dst-jpg_tt6&cstp=mx1008x1020&ctp=s1008x1020&_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=BsqBwFBEe9oQ7kNvwGMDwvC&_nc_oc=AdqEPJfqiprj0XGqgK-E4N2JqRU1qf0dUbmcRyNF4_lIbF3-q3zl6nYN2l7ctKiyWcYl-8P0BzsYkTyCHr1K6u1K&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=c2bud7aAV2l6gAjdcf54xw&_nc_ss=7b2a8&oh=00_AQHWldU-D2FRcm_H5KOyLVVR_CTNLzNP2XpC-vM-sJHwzg&oe=6A7E7435",
   socials: {
     github: "https://github.com/bijaykharel807-crypto",
     linkedin: "https://linkedin.com/in/bijay-kharel-9b5740384/",
+    facebook: "https://www.facebook.com/hiroshi12389/",
+    instagram: "https://www.instagram.com/bijay_hatake/",
     website: "https://pro-two-chi.vercel.app"
   }
 };
 
 export const SKILLS = [
   { 
-    category: "Web Design & Development", 
-    items: ["HTML5, CSS3, JavaScript", "React.js & Front-End Architecture", "Responsive Web Design", "UI/UX Design Principles"] 
+    category: "Web & Mobile Development", 
+    items: ["HTML5, CSS3, JavaScript", "React.js & Front-End Architecture", "React Native Developer", "Responsive Web Design", "UI/UX Design Principles"] 
+  },
+  { 
+    category: "AI, ML & Data Science", 
+    items: ["Python Programming", "AI / Machine Learning (AI/ML)", "Data Science & Analytics", "Model Fine-tuning & Integration"] 
   },
   { 
     category: "Design & Mockup Tools", 
@@ -25,10 +31,6 @@ export const SKILLS = [
   { 
     category: "Frameworks & CMS", 
     items: ["WordPress", "Bootstrap", "Tailwind CSS", "Vite"] 
-  },
-  { 
-    category: "Programming Languages", 
-    items: ["JavaScript (ES6+)", "Python", "PHP", "Node.js"] 
   },
   { 
     category: "Database & Tools", 
@@ -46,8 +48,7 @@ export const PROJECTS = [
     outcome: "Demonstrates advanced front-end UI architecture and simulated AI product workflows.",
     links: { github: "https://github.com/bijaykharel807-crypto", live: "https://ai0-2.onrender.com/" },
     image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800"
-  }, 
-  
+  },
   {
     title: "Streamlit ML & Data App",
     role: "Data & ML Developer",
@@ -69,7 +70,17 @@ export const PROJECTS = [
     image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&q=80&w=800"
   },
   {
-    title: "Dragon Wave – Copilot Workspaces",
+    title: "Dragon Wave",
+    role: "Front-End Developer",
+    period: "2026",
+    tech: ["React", "Vite", "Tailwind CSS", "Vercel"],
+    description: "Unicorn. is a high-end fashion/lifestyle e-commerce website built and deployed on Vercel. It features a clean, minimalist aesthetic with a light grey background and elegant serif typography.",
+    outcome: "Delivers a modern, minimalist e-commerce digital experience with high-end typography and refined aesthetic layout.",
+    links: { github: "https://github.com/bijaykharel807-crypto/dragon-wave", live: "https://dragon-wave-six.vercel.app/" },
+    image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    title: "Dragon ball – Copilot Workspaces",
     role: "Full-Stack AI Developer",
     period: "2026",
     tech: ["React", "Multi-Model AI", "Image Gen", "Kanban Board", "Node.js"],
@@ -86,8 +97,7 @@ export const PROJECTS = [
     description: "A simple web-based AI playground and chat interface powered by the llama-3.3-70b-versatile model (via Groq), providing ultra-fast responses and interactive conversation testing.",
     outcome: "Enables low-latency AI conversations and prompt experimentation through a clean, responsive web interface.",
     links: { github: "https://github.com/bijaykharel807-crypto", live: "https://po-32.onrender.com/" },
-    image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.windowsnoticias.com%2Fwp-content%2Fuploads%2F2025%2F11%2Fque-es-google-ai-studio.webp&f=1&nofb=1&ipt=57fa7db4e78735b9a1c5385cba03d200b38a3ea20dddf230c21918678ef9d940"
-  },
+    image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fai.google.dev%2Fstatic%2Fsite-assets%2Fimages%2Fshare-ais-02.png&f=1&nofb=1&ipt=205b0326e5d71c76d162ec12a9e01cf0b983aec954b9e5d54c95f8dd2f0c1ad6"},
   {
     title: "Unicorn AI · Multimodal",
     role: "Full-Stack AI Developer",
@@ -209,16 +219,6 @@ export const PROJECTS = [
     image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80&w=800"
   },
   {
-    title: "Face Detection App",
-    role: "Computer Vision Tool",
-    period: "2024",
-    tech: ["Python", "Streamlit", "Computer Vision"],
-    description: "A face detection application hosted on Streamlit. It uses computer vision and machine learning to detect human faces in images or video. Designed for users to upload photos and receive processed images with detected faces highlighted through a clean web interface.",
-    outcome: "Provides real-time face detection capabilities using advanced ML models in a lightweight Streamlit environment.",
-    links: { github: "#", live: "https://face-detection-app-8kuonqhzeqkhzqqotiajz3.streamlit.app/" },
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=800"
-  },
-  {
     title: "AI Interview Practice",
     role: "AI Platform",
     period: "2024",
@@ -232,18 +232,20 @@ export const PROJECTS = [
 
 export const EXPERIENCE = [
   {
-    company: "BrahmaByte Lab Pvt. Ltd",
-    role: "Web Designer & Python Developer",
-    period: "December 2018 – December 2025",
+    company: "Self-Employed",
+    role: "Web Designer, React Native & Python Developer",
+    period: "Dec 2018 – Dec 2025",
     points: [
-      "Designed and developed responsive websites and web applications for diverse clients",
-      "Built and maintained front-end interfaces using HTML5, CSS3, JavaScript, and React",
-      "Created UI/UX mockups and prototypes using Figma and Adobe XD",
-      "Developed and deployed Python-based automation scripts and AI-integrated solutions",
-      "Built machine learning pipelines and integrated AI models into client projects",
-      "Collaborated with cross-functional teams to deliver projects on time and within scope",
-      "Conducted code reviews, debugging, and performance optimization across web projects",
-      "Provided technical support and training to junior developers and interns"
+      "Designed and developed responsive websites and full-stack web applications for a diverse portfolio of clients using React.js, Node.js/Express, HTML5, CSS3, and JavaScript.",
+      "Architected and maintained Node.js backend services and RESTful APIs, handling authentication, business logic, and seamless integration with React frontends and databases (MongoDB, PostgreSQL).",
+      "Built interactive React.js interfaces with component-based architecture and Redux state management; optimized performance and implemented reusable UI patterns across client projects.",
+      "Built cross-platform mobile applications using React Native, integrating REST APIs and native device features for iOS and Android.",
+      "Built Python-based automation scripts and AI-integrated solutions, including machine learning pipelines embedded into client-facing products.",
+      "Developed NLP and LLM-powered features using Hugging Face and LangChain, applying prompt engineering and RAG techniques.",
+      "Performed exploratory data analysis, feature engineering, and data cleaning with Pandas and NumPy to support product decisions.",
+      "Created UI/UX mockups and prototypes in Figma and Adobe XD, translating designs into production-ready front-end and mobile interfaces.",
+      "Collaborated with cross-functional teams to deliver projects on schedule; conducted code reviews, debugging, and performance optimization.",
+      "Mentored junior developers and interns, providing technical support and code-quality guidance."
     ]
   }
 ];
