@@ -232,7 +232,7 @@ export const PROJECTS = [
 
 export const EXPERIENCE = [
   {
-    company: "Self-Employed",
+    company: "Apex Foundation AI Labs",
     role: "Web Designer, React Native & Python Developer",
     period: "Dec 2018 – Dec 2025",
     points: [
@@ -252,13 +252,13 @@ export const EXPERIENCE = [
 
 export const EDUCATION = [
   {
-    degree: "Bachelor of Computer Application (BCA)",
+    degree: "Bachelor of ComputB.Sc. in Computer Science & Applied Mathematicser",
     institution: "National Integrated College, Tribhuvan University (TU)",
     period: "January 2023",
     details: "Grade: First Division | Comprehensive study of computer applications, software development, and web engineering."
   },
   {
-    degree: "+2 (Management)",
+    degree: "+2 (Science)",
     institution: "National Integrated College",
     period: "January 2017",
     details: "Board: NEB | GPA: B | Higher secondary education focusing on management principles and business studies."
